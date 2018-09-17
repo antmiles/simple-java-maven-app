@@ -15,6 +15,9 @@ public class App
     }
 
     private final String getMessage() {
+        if(1==1){
+            return message;
+        }
         return message;
     }
 
